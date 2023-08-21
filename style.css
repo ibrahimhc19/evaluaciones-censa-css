@@ -93,11 +93,7 @@ q {
   border-radius: .5rem;
   font-style: italic;
 }
-main {
-  padding: 2rem 0;
-  display: flex;
-  flex-direction: column;
-}
+
 .subtitulo{
   margin: 2rem 0;
   user-select: none;
@@ -113,9 +109,11 @@ main {
   width: 60%;
   display: flex;
   margin: 0 auto;
+  padding: 2rem 0;
   flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .cards-container div {
@@ -140,7 +138,8 @@ main {
   box-shadow: 0 0.2rem 1rem rgba(255, 106, 106, 0.37);
 }
 .cards-container img {
-  width: 250px;
+  /* width: 250px; */
+  max-width: 100%;
 }
 .cards-container div:hover{
   transform: scale(1.1);
@@ -148,7 +147,8 @@ main {
   cursor: pointer;
 }
 figcaption {
-  width: 250px;
+  /* width: 250px; */
+  max-width: 100%;
   font-size: large;
   font-weight: 400;
   margin: 0.5rem 0 1rem;
@@ -164,8 +164,8 @@ figcaption {
   padding: 0.5rem 1rem;
   /* width: auto !important; */
   color: rgb(143, 0, 0);
-  align-self: flex-start;
-  width: 65%;
+  /* align-self: flex-start; */
+  width: 50%;
 }
 footer {
   background-color: #740505;
