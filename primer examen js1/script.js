@@ -6,8 +6,8 @@ let datosUsuario = {
   sexo: "",
 }
 
-// datosUsuario.nombre = prompt("Por favor, ingresa tu nombre:");
-// datosUsuario.apellido = prompt("Por favor, ingresa tu apellido:");
+datosUsuario.nombre = prompt("Por favor, ingresa tu nombre:");
+datosUsuario.apellido = prompt("Por favor, ingresa tu apellido:");
 datosUsuario.edad = parseInt(prompt("Por favor, ingresa tu edad:"));
 datosUsuario.salario = parseInt(prompt("Por favor, ingresa tu salario:"));
 datosUsuario.sexo = prompt("Por favor, ingresa tu sexo (M/F):");
