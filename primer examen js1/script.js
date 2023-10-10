@@ -94,25 +94,25 @@ switch (eleccion) {
     break;
   case "2":
     alert("La compra de su " + opciones[0] + " tiene un descuento de " + descuento + "%" + " y un impuesto de " + impuesto + "%")
-    console.log("La compra de su " + opciones[0] + " tiene un descuento de " + descuento + "%" + " y un impuesto de " + impuesto + "%")
+    console.log("La compra de su " + opciones[1] + " tiene un descuento de " + descuento + "%" + " y un impuesto de " + impuesto + "%")
     alert(mensaje)
     console.log(mensaje)
     break;
   case "3":
     alert("La compra de su " + opciones[0] + " tiene un descuento de " + descuento + "%" + " y un impuesto de " + impuesto + "%")
-    console.log("La compra de su " + opciones[0] + " tiene un descuento de " + descuento + "%" + " y un impuesto de " + impuesto + "%")
+    console.log("La compra de su " + opciones[2] + " tiene un descuento de " + descuento + "%" + " y un impuesto de " + impuesto + "%")
     alert(mensaje)
     console.log(mensaje)
     break;
   case "4":
     alert("La compra de su " + opciones[0] + " tiene un descuento de " + descuento + "%" + " y un impuesto de " + impuesto + "%")
-    console.log("La compra de su " + opciones[0] + " tiene un descuento de " + descuento + "%" + " y un impuesto de " + impuesto + "%")
+    console.log("La compra de su " + opciones[3] + " tiene un descuento de " + descuento + "%" + " y un impuesto de " + impuesto + "%")
     alert(mensaje)
     console.log(mensaje)
     break;
   case "5":
     alert("La compra de su " + opciones[0] + " tiene un descuento de " + descuento + "%" + " y un impuesto de " + impuesto + "%")
-    console.log("La compra de su " + opciones[0] + " tiene un descuento de " + descuento + "%" + " y un impuesto de " + impuesto + "%")
+    console.log("La compra de su " + opciones[4] + " tiene un descuento de " + descuento + "%" + " y un impuesto de " + impuesto + "%")
     alert(mensaje)
     console.log(mensaje)
     break;
